@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <NavbarBT id='basic-navbar-nav' bg='dark' variant='dark' expand="md">
       <Container>
-        <NavbarBT.Brand href='/about-us'>
+        <NavbarBT.Brand href='/#/about-us'>
           <img src='https://react-bootstrap.github.io/logo.svg' width="30" height="30" className="d-inline-block align-top"
             alt="React Bootstrap logo"></img>
           Restaurant
@@ -19,9 +19,9 @@ export default function Navbar() {
         <NavbarBT.Toggle aria-controls="basic-navbar-nav"></NavbarBT.Toggle>
         <NavbarBT.Collapse id='basic-navbar-nav'>
           <Nav>
-            <Nav.Link href='/about-us'>Nosotros</Nav.Link>
-            <Nav.Link href='/menu'>Menú</Nav.Link>
-            <Nav.Link href='/reservations'>Reservaciones</Nav.Link>
+            <Nav.Link href='/#/about-us'>Nosotros</Nav.Link>
+            <Nav.Link href='/#/menu'>Menú</Nav.Link>
+            <Nav.Link href='/#/reservations'>Reservaciones</Nav.Link>
           </Nav>
         </NavbarBT.Collapse>
       </Container>

@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -12,6 +12,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <HashRouter>
+
         <Routes>
           <Route
             path="/about-us"
@@ -30,7 +32,9 @@ function App() {
             element={ <Nosotros /> }
           />
 
-      </Routes>
+        </Routes>
+      </HashRouter>
+
     </div>
   );
 }
